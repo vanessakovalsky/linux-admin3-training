@@ -19,13 +19,15 @@ En binôme / trinôme, et en tenant compte des informations suivantes, fournir u
 ## Etapes à suivre
 <details>
   <summary>Etapes à suivre</summary>
-* Créer un compte admin
-* Désactiver la connexion root locale et à distance
-* Configurer une connexion SSH
-* Mettre en place un pare-feu
-* Mettre en place une protection contre les intrusions en filtrant les adresses IP
-* Mettre en place une sauvegarde
-* Mettre à jour son système et les applications et automatiser la mise à jour.   
+    <ul>
+        <li> Créer un compte admin</li>
+        <li>Désactiver la connexion root locale et à distance</li>
+        <li>Configurer une connexion SSH</li>
+        <li>Mettre en place un pare-feu</li>
+        <li>Mettre en place une protection contre les intrusions en filtrant les adresses IP</li>
+        <li>Mettre en place une sauvegarde</li>
+        <li>Mettre à jour son système et les applications et automatiser la mise à jour. </li> 
+    </ul>
 </details>
 
 ## En pratique :
