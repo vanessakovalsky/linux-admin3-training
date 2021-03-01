@@ -400,7 +400,7 @@ Apr 19 19:49:17 centos-8.example.com systemd[1]: Started NFS server and services
 
 ### Tester l'installation depuis un boot PXE 
 * Lancer la machine à installer et accèder aux options de boot
-[https://www.golinuxcloud.com/wp-content/uploads/2020/04/pxe-1.jpg]
+[](https://www.golinuxcloud.com/wp-content/uploads/2020/04/pxe-1.jpg)
 * Choisir un démarrage sur le réseau 
 [https://www.golinuxcloud.com/wp-content/uploads/2020/04/pxe-2.jpg]
 * Dans l'écran suivant vous devriez voir les message indiquant que la machine démarrer sur PXE et contacte le serveur DHCP pour obtenir une adresse IP :
