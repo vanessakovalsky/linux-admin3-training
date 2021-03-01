@@ -18,7 +18,16 @@ En binôme / trinôme, et en tenant compte des informations suivantes, fournir u
 
 ## Etapes à suivre
 <details>
-  <summary>Etapes à suivre</summary>
+  <summary>Etapes à suivre pour créer les VM</summary>
+    <ul>
+        <li> Créer les 2 VM</li>
+        <li>Installer Centos sur la première VM</li>
+        <li>Installer Ubuntu sur la deuxième VM</li>
+        <li>Installer et configrer Apache sur la première VM</li>
+    </ul>
+</details>
+<details>
+  <summary>Etapes à suivre pour sécuriser le serveur (l'ordre a peu d'importance)</summary>
     <ul>
         <li> Créer un compte admin</li>
         <li>Désactiver la connexion root locale et à distance</li>
