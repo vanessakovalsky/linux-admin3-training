@@ -11,8 +11,8 @@ Vous ne pouvez plus accéder au serveur de mail, le mot de passe en votre posses
 
 * Quels sont les étapes à suivre pour résoudre ce problème ?
 
-* Quelques éléments pratiques : 
- * * Vous pouvez installer GLPI sur une VM pour stocker vos incidents
+* Quelques éléments pratiques :  
+ * * Vous pouvez installer GLPI sur une VM pour stocker vos incidents : https://glpi-install.readthedocs.io/en/latest/
  * * Pensez à utiliser systemrescuecd par exemple : https://www.system-rescue.org/pour accéder à votre machine et diagnostiquer ce qu'il se passe et quelle est la solution au problème 
 
 
