@@ -7,11 +7,11 @@ setenforce 0
 
 # Installer les dépendances
 
-dnf update
-dnf install @php
-dnf install @perl @httpd wget unzip glibc automake glibc-common gettext autoconf php php-cli gcc gd gd-devel net-snmp openssl-devel unzip net-snmp postfix net-snmp-utils
+dnf update -y
+dnf install -y @php
+dnf install -y @perl @httpd wget unzip glibc automake glibc-common gettext autoconf php php-cli gcc gd gd-devel net-snmp openssl-devel unzip net-snmp postfix net-snmp-utils
 
-dnf groupinstall "Development Tools"
+dnf groupinstall -y "Development Tools"
 
 # Démarrer les service httpd et php-fpm
 
@@ -24,7 +24,7 @@ export VER="4.4.6"
 curl -SL https://github.com/NagiosEnterprises/nagioscore/releases/download/nagios-$VER/nagios-$VER.tar.gz | tar -xzf -
 
 # Compiler le coeur de Nagios
-
+cd nagios-$VER
 ./configure
 make all
 
